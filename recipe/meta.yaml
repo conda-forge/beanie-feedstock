@@ -1,5 +1,5 @@
 {% set name = "beanie" %}
-{% set version = "1.11.7" %}
+{% set version = "1.11.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/roman-right/beanie/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 444d07da9d5469258ae285c8acead8fd4bd5ea9be4243b25c5e8285f359a7763
+  sha256: 6924cf419c6b4672ba4e0a51614870fbdef11618b1272ff8fa9116e8d8f201fd
 
 build:
   entry_points:
