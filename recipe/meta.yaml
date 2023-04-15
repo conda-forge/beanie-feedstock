@@ -1,5 +1,5 @@
 {% set name = "beanie" %}
-{% set version = "1.15.4" %}
+{% set version = "1.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/roman-right/beanie/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 2e8d58e412fd0bcc96e7d1762272c0fbe6f63173ce1693af410ec0359639deaa
+  sha256: 1e1205d41176fe5b010cf04964c827841fe9c2c9cffc5ba5a29f66fb2f9c2e68
 
 build:
   entry_points:
@@ -20,14 +20,14 @@ requirements:
   host:
     - pip
     - poetry
-    - python >=3.6
+    - python >=3.7
   run:
     - click >=7
     - motor >=2.5,<4.0
-    - pydantic >=1.9.0
-    - python >=3.6
+    - pydantic >=1.10.0
+    - python >=3.7
     - toml
-    - yarl >=1.6
+    - lazy-model >=0.0.3
 
 test:
   imports:
