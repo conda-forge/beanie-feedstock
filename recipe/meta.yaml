@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/roman-right/beanie/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 1e1205d41176fe5b010cf04964c827841fe9c2c9cffc5ba5a29f66fb2f9c2e68
+  sha256: 3a1bcd60a8c8d90fa725d3e8956fc723f6df4d5fe777ca8f932344031c170b54
 
 build:
   entry_points:
