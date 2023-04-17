@@ -1,11 +1,11 @@
-About beanie
-============
+About beanie-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/beanie-feedstock/blob/main/LICENSE.txt)
 
 Home: https://roman-right.github.io/beanie/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/beanie-feedstock/blob/main/LICENSE.txt)
 
 Summary: Asynchronous Python ODM for MongoDB
 
