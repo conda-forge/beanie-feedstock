@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/roman-right/beanie/archive/refs/tags/{{ version }}.tar.gz
   sha256: e0e60a75973f4eb7bacb4f8f3094666b74c5ecad9a48ac7bd73b3e974f12eae7
+  patches:
+    - lazy-model.patch
 
 build:
   entry_points:
