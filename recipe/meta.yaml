@@ -27,7 +27,7 @@ requirements:
     - pydantic >=1.10.0,<2
     - python >=3.7
     - toml
-    - lazy-model >=0.0.3
+    - lazy-model >=0.1.0
 
 test:
   imports:
