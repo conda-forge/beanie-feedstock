@@ -1,0 +1,12 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index 5a4d7f0..33dc3ef 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -21,7 +21,7 @@ dependencies = [
+     "motor>=2.5.0,<4.0.0",
+     "click>=7",
+     "toml",
+-    "lazy-model==0.1.0b0",
++    "lazy-model>=0.1.0b0",
+     "typing-extensions>=4.7"
+ ]
