@@ -1,5 +1,5 @@
 {% set name = "beanie" %}
-{% set version = "1.21.0" %}
+{% set version = "1.23.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/roman-right/beanie/archive/refs/tags/{{ version }}.tar.gz
-  sha256: e0e60a75973f4eb7bacb4f8f3094666b74c5ecad9a48ac7bd73b3e974f12eae7
+  sha256: 8619e5bd1387a7dce636cbbc3cda9f9298ff0a3996cf3d97c440d797aeb070bf
   patches:
     - lazy-model.patch
 
