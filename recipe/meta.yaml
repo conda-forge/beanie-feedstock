@@ -9,7 +9,6 @@ source:
   url: https://github.com/roman-right/beanie/archive/refs/tags/{{ version }}.tar.gz
   sha256: 8619e5bd1387a7dce636cbbc3cda9f9298ff0a3996cf3d97c440d797aeb070bf
   patches:
-    - lazy-model.patch
 
 build:
   entry_points:
