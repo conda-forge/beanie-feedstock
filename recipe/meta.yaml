@@ -1,5 +1,5 @@
 {% set name = "beanie" %}
-{% set version = "1.25.0" %}
+{% set version = "1.26.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/roman-right/beanie/archive/refs/tags/{{ version }}.tar.gz
-  sha256: d2bce4456449c9c776fa9f082077e171a7cf59f0f977e636a1ebef59a3836163
+  sha256: 47eff0a7ab319b0e429613a441cd4d68233e1b52844813c71bf0171f573ebb3b
   patches:
 
 build:
@@ -15,7 +15,7 @@ build:
     - beanie = beanie.executors.migrate:migrations
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
