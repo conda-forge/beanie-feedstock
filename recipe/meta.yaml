@@ -15,18 +15,18 @@ build:
     - beanie = beanie.executors.migrate:migrations
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
     - flit-core
-    - python >=3.7
+    - python {{ python_min }}
   run:
     - click >=7
     - motor >=2.5,<4.0
     - pydantic >=1.10.0,<3
-    - python >=3.7
+    - python >={{ python_min }}
     - toml
     - lazy-model >=0.2.0
 
@@ -38,6 +38,7 @@ test:
     - beanie --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://roman-right.github.io/beanie/
