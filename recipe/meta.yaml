@@ -27,7 +27,7 @@ requirements:
     - motor >=2.5,<4.0
     - pydantic >=1.10.0,<3
     - python >={{ python_min }}
-    - toml
+    - tomli
     - lazy-model >=0.2.0
 
 test:
